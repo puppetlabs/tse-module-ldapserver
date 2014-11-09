@@ -1,0 +1,13 @@
+version: 1
+dn: cn=sylvia,ou=users,ou=system
+changetype: add
+objectClass: top
+objectClass: inetOrgPerson
+objectClass: person
+objectClass: organizationalPerson
+cn: sylvia
+sn: plath
+mail: sylvia@plath.net
+displayName: Sylvia Plath
+title: cn=authors,ou=groups,ou=system
+userPassword: TheBe11Jar

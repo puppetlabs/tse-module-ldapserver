@@ -1,0 +1,13 @@
+version: 1
+dn: cn=jorge,ou=users,ou=system
+changetype: add
+objectClass: top
+objectClass: inetOrgPerson
+objectClass: person
+objectClass: organizationalPerson
+cn: jorge
+sn: borges
+mail: jl@borges.org
+displayName: Jorge Luis Borges
+title: cn=authors,ou=groups,ou=system
+userPassword: ImaginaryBeings?

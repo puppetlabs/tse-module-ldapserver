@@ -1,0 +1,8 @@
+version: 1
+dn: cn=poets,ou=groups,ou=system
+changetype: add
+objectClass: top
+objectClass: groupOfUniqueNames
+cn: poets
+uniqueMember: cn=sylvia,ou=users,ou=system
+description: Poets
