@@ -5,13 +5,14 @@ class ldap (
   $ldap_pass = 'secret',
   $ldif_folder = '/etc/ldap-demo/ldif',
   $ldap_pkg = 'ldap-demo-0.1.3-1.el6.noarch.rpm',
+  $ldap_pkg_baseurl = 'https://s3.amazonaws.com/saleseng/files',
 ) {
   include profile::staging
   include ldap::reqs
   contain java
 
   staging::file { 'ldap-demo.rpm':
-    source => "http://${::servername}/rpms/${ldap_pkg}",
+    source => "${ldap_pkg_baseurl}/${ldap_pkg}",
   }
   
   package { 'ldap-demo':
