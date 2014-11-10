@@ -1,9 +1,0 @@
-version: 1
-dn: cn=writers,ou=groups,ou=system
-changetype: add
-objectClass: top
-objectClass: groupOfUniqueNames
-cn: writers
-uniqueMember: cn=poets,ou=groups,ou=system
-uniqueMember: cn=authors,ou=groups,ou=system
-description: Writers
