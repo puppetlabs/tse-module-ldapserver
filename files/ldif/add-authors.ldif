@@ -1,9 +1,0 @@
-version: 1
-dn: cn=authors,ou=groups,ou=system
-changetype: add
-objectClass: top
-objectClass: groupOfUniqueNames
-cn: authors
-uniqueMember: cn=sylvia,ou=users,ou=system
-uniqueMember: cn=jorge,ou=users,ou=system
-description: Authors
