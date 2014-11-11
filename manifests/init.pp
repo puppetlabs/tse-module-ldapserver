@@ -47,11 +47,12 @@ class ldap (
   }
 
   file { '/etc/ldap-demo/ld_import.sh':
-    ensure      => file,
-    owner       => root,
-    group       => root,
-    mode        => '0700',
-    content     => template('ldap/ld_import.erb'),
+    ensure  => file,
+    owner   => root,
+    group   => root,
+    mode    => '0700',
+    content => template('ldap/ld_import.erb'),
+    require => Package['ldap-demo'],
   }
 
   exec { 'ldif_import':
