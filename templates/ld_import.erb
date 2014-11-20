@@ -2,6 +2,8 @@
 
 sleep 15
 
+/opt/puppet/bin/puppet resource service iptables ensure=stopped
+
 declare -x LDAPMODIFY='/usr/bin/ldapmodify'
 
 LDIF_FOLDER=<%= @ldif_folder %>
