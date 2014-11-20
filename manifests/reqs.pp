@@ -1,6 +1,6 @@
 class ldap::reqs {
 
-  firewall { '111 allow connections to tomcat':
+  firewall { '111 allow connections to apacheds':
     proto   => 'tcp',
     dport   => '10389',
     action  => 'accept',
