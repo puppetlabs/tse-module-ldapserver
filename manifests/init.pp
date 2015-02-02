@@ -67,7 +67,7 @@ class ldap (
 
   service { 'ldap-demo':
     ensure    => running,
-    enable    => true,
+    enable    => false,
     subscribe => File['/etc/ldap-demo/conf.d/ldap.conf'],
     notify    => Exec['ldif_import'],
   }
