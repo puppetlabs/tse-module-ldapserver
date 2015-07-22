@@ -36,7 +36,7 @@ class ldap (
     ensure  => directory,
     owner   => root,
     group   => root,
-    mode    => 0600,
+    mode    => '0600',
     recurse => true,
     source  => 'puppet:///modules/ldap/ldif',
     require => Package['ldap-demo'],
