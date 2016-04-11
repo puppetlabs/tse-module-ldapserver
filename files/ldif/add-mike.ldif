@@ -6,8 +6,8 @@ objectClass: inetOrgPerson
 objectClass: person
 objectClass: organizationalPerson
 cn: mike
-sn: stahnke 
-mail: stahnma@puppetlabs.com 
+sn: stahnke
+mail: stahnma@puppet.com 
 displayName: Mike Stahnke
 title: cn=security,ou=groups,ou=system
 userPassword: puppetlabs

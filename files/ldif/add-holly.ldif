@@ -6,8 +6,8 @@ objectClass: inetOrgPerson
 objectClass: person
 objectClass: organizationalPerson
 cn: holly
-sn: files 
-mail: holly@puppetlabs.com 
+sn: files
+mail: holly@puppet.com 
 displayName: Holly Files
 title: cn=management,ou=groups,ou=system
 userPassword: puppetlabs

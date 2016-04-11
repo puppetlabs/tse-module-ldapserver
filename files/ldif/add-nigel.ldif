@@ -6,8 +6,8 @@ objectClass: inetOrgPerson
 objectClass: person
 objectClass: organizationalPerson
 cn: nigel
-sn: kersten 
-mail: nigel@puppetlabs.com 
+sn: kersten
+mail: nigel@puppet.com 
 displayName: Nigel Kersten
 title: cn=security,ou=groups,ou=system
 userPassword: puppetlabs
