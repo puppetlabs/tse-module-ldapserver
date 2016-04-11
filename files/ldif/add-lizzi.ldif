@@ -7,7 +7,7 @@ objectClass: person
 objectClass: organizationalPerson
 cn: lizzi
 sn: lindboe
-mail: lizzi@puppetlabs.com 
+mail: lizzi@puppet.com 
 displayName: Lizzi Lindboe
 title: cn=developers,ou=groups,ou=system
 userPassword: puppetlabs

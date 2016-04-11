@@ -6,8 +6,8 @@ objectClass: inetOrgPerson
 objectClass: person
 objectClass: organizationalPerson
 cn: spencer
-sn: seebald 
-mail: spencer@puppetlabs.com 
+sn: seebald
+mail: spencer@puppet.com 
 displayName: Spencer Seebald
 title: cn=operations,ou=groups,ou=system
 userPassword: puppetlabs

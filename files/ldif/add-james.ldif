@@ -6,8 +6,8 @@ objectClass: inetOrgPerson
 objectClass: person
 objectClass: organizationalPerson
 cn: james
-sn: jones 
-mail: james.jones@puppetlabs.com 
+sn: jones
+mail: james.jones@puppet.com 
 displayName: James Jones
 title: cn=operations,ou=groups,ou=system
 userPassword: puppetlabs

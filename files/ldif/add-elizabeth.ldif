@@ -6,8 +6,8 @@ objectClass: inetOrgPerson
 objectClass: person
 objectClass: organizationalPerson
 cn: elizabeth
-sn: wittig 
-mail: elizabeth@puppetlabs.com 
+sn: wittig
+mail: elizabeth@puppet.com 
 displayName: Elizabeth Wittig
 title: cn=operations,ou=groups,ou=system
 userPassword: puppetlabs

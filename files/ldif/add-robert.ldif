@@ -6,8 +6,8 @@ objectClass: inetOrgPerson
 objectClass: person
 objectClass: organizationalPerson
 cn: robert
-sn: maury 
-mail: robert.maury@puppetlabs.com 
+sn: maury
+mail: robert.maury@puppet.com 
 displayName: Robert Maury
 title: cn=operations,ou=groups,ou=system
 userPassword: puppetlabs

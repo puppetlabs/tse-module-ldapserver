@@ -6,8 +6,8 @@ objectClass: inetOrgPerson
 objectClass: person
 objectClass: organizationalPerson
 cn: luke
-sn: kanies 
-mail: luke@puppetlabs.com 
+sn: kanies
+mail: luke@puppet.com 
 displayName: Luke Kanies
 title: cn=management,ou=groups,ou=system
 userPassword: puppetlabs

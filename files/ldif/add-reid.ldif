@@ -6,8 +6,8 @@ objectClass: inetOrgPerson
 objectClass: person
 objectClass: organizationalPerson
 cn: reid
-sn: vandewiele 
-mail: reid@puppetlabs.com 
+sn: vandewiele
+mail: reid@puppet.com 
 displayName: Reid Vandewiele
 title: cn=operations,ou=groups,ou=system
 userPassword: puppetlabs

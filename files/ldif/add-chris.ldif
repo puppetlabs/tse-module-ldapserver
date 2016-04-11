@@ -6,8 +6,8 @@ objectClass: inetOrgPerson
 objectClass: person
 objectClass: organizationalPerson
 cn: chris
-sn: barker 
-mail: cbarker@puppetlabs.com 
+sn: barker
+mail: cbarker@puppet.com 
 displayName: Chris Barker
 title: cn=operations,ou=groups,ou=system
 userPassword: puppetlabs
